@@ -18,12 +18,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 			while (false !== ($entry = readdir($handle))) {
 				$file_parts = pathinfo($entry);
 
-				// Überprüfen, ob die Datei eine Mediendatei ist
 				if (isset($file_parts['extension']) && in_array($file_parts['extension'], $media_extensions)) {
+					$file_time = filemtime($entry);
+					$pub_date = date(DATE_RFC2822, $file_time);
 					echo "<item>\n";
 					echo "<title>" . $file_parts['filename'] . "</title>\n";
 					echo "<link>" . $base_url . $entry . "</link>\n";
 					echo "<enclosure url=\"" . $base_url . $entry . "\" type=\"audio/mpeg\"/>\n";
+					echo "<pubDate>" . $pub_date . "</pubDate>\n";
 					echo "<description>Datei: " . $entry . "</description>\n";
 					echo "</item>\n";
 				}

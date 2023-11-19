@@ -1,4 +1,4 @@
-# Simple Podcast Feed Generator
+# Folder Feeder
 
 ## Introduction
 

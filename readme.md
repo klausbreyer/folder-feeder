@@ -1,4 +1,4 @@
-# Folder Feeder
+# Folder Feeder: Personal Adhoc Podcast Hosting
 
 ## Introduction
 
@@ -43,3 +43,7 @@ In today's digital landscape, YouTube is a treasure trove of engaging content, i
 ## Additional Notes
 
 This script is designed for simplicity and personal use. It does not include advanced features like file sorting, metadata editing, or detailed episode descriptions. If you require these capabilities, consider enhancing the script or exploring other solutions.
+
+## Copyright Reminder
+
+Before using this tool, please ensure that you have the right to repurpose and distribute the content you are converting into a podcast format. Copyright laws vary by region and type of content, and it's essential to respect the intellectual property rights of creators. Unauthorized use or distribution of copyrighted material could result in legal consequences.

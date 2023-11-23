@@ -1,5 +1,7 @@
 # Folder Feeder: Personal Adhoc Podcast Hosting
 
+![](https://raw.githubusercontent.com/klausbreyer/folder-feeder/main/preview.png)
+
 ## Introduction
 
 In today's digital landscape, YouTube is a treasure trove of engaging content, including many podcasts that unfortunately remain confined within a video format. This presents a challenge for those with limited screen time or a preference for audio-only media. To address this, I've developed a simple PHP script that can transform any collection of audio files into a podcast feed. This tool is especially useful for converting YouTube videos into podcast episodes, allowing you to enjoy them on-the-go, just like any other podcast in your personal playlist.

@@ -29,7 +29,7 @@ In today's digital landscape, YouTube is a treasure trove of engaging content, i
 ### Step 2: Set Up the Script
 
 1. **Download**: Get the `index.php` script from this repository.
-2. **Upload**: Place `index.php` in the same directory as your audio files on the web server.
+2. **Upload**: Place `index.php` and `logo.png` (the podcast cover) in the same directory as your audio files on the web server. Make sure the uploaded files are world-readable (mode 644), otherwise the web server answers with 403.
 
 ### Step 3: Create Your Podcast Feed
 
